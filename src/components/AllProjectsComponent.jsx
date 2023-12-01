@@ -24,11 +24,8 @@ const AllProjectsComponent = async () => {
         <div className="grid grid-cols-2 gap-5">
           {JSON.map((item, index) => {
             return (
-              <a href={item["live"]} target="_blank">
-                <div
-                  key={index}
-                  className="h-[400px] rounded overflow-hidden shadow-md p-5"
-                >
+              <a href={item["live"]} target="_blank" key={index}>
+                <div className="h-[400px] rounded overflow-hidden shadow-md p-5">
                   <div className="h-[70px]">
                     <div className="text-[20px] font-semibold mb-4 text-center">
                       {item["title"]}
