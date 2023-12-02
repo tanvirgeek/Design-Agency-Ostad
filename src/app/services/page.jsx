@@ -1,5 +1,6 @@
 import Allservices from "@/components/Allservices";
 import BreadCrump from "@/components/BreadCrump";
+import SubscribeCard from "@/components/SubscribeCard";
 import React from "react";
 
 const Services = () => {
@@ -7,6 +8,7 @@ const Services = () => {
     <>
       <BreadCrump pageName="Services" />
       <Allservices />
+      <SubscribeCard />
     </>
   );
 };

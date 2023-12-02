@@ -1,4 +1,5 @@
 import BreadCrump from "@/components/BreadCrump";
+import SubscribeCard from "@/components/SubscribeCard";
 import TeamMembers from "@/components/TeamMembers";
 import React from "react";
 
@@ -7,6 +8,7 @@ const Team = () => {
     <>
       <BreadCrump pageName="Team" />
       <TeamMembers />
+      <SubscribeCard />
     </>
   );
 };
